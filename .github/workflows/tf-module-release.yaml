@@ -14,5 +14,6 @@ jobs:
       - uses: release-drafter/release-drafter@v7.3.1
         with:
           publish: true
+          config-name: release-drafter.yaml
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
